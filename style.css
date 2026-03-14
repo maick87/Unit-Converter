@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
 
+}
 
 body {
     text-align: center;
@@ -50,13 +52,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 
     
 
+}
+.convert-result > div {
+    
+}
+
+.p-des {
+    margin: 0;
+    align-items: center;
 }
 
 .p-res {
     font-size: 20px;
     color: black;
-    padding-left: 10px;
+    margin: 0;
 }
